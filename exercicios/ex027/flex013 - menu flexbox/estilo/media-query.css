@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+header, header > nav {
+    flex-flow: column nowrap;
+}
+
+header > h1 {
+    flex-basis: 50px;
+}
+
+header > nav {
+    text-align: center;
+}
+
+header > nav > a {
+    width: 90vw;
+}
+
+header > nav > button {
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 90vw;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
